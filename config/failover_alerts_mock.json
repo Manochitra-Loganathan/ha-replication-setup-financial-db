@@ -1,0 +1,12 @@
+{
+  "alert_id": "hadr_001",
+  "type": "FAILOVER_EVENT",
+  "source": "Db2 HADR",
+  "status": "Triggered",
+  "details": {
+    "old_primary": "db2-primary",
+    "new_primary": "db2-standby",
+    "reason": "Peer timeout"
+  },
+  "timestamp": "2025-04-24T12:45:00Z"
+}
