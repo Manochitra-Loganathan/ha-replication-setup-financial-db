@@ -10,6 +10,24 @@ It includes real-world configurations, monitoring hooks, SOPs, and a detailed ar
 
 ![HA/DR Architecture](diagrams/ha_dr_replication_architecture.png)
 
+## ⚙️ Key Features
+
+- ✅ **Failover SOP** for both Db2 and SQL Server
+- ✅ **Q Replication** configured for near-real-time sync
+- ✅ **Monitoring hooks** with mock alerts and uptime logs
+- ✅ **Real-world config files** for high availability
+- ✅ Designed for **financial-grade reliability** (99.99% uptime goal)
+
+- ## 👩‍💻 Tech Stack
+
+| Category        | Tools & Technologies                                 |
+|----------------|-------------------------------------------------------|
+| Databases       | IBM Db2 11.5, SQL Server 2019                         |
+| Replication     | Q Replication, SQL Server Publisher–Subscriber       |
+| HA/DR Setup     | Db2 HADR, SQL Server AlwaysOn                        |
+| Automation      | Bash, PowerShell, SQL Scripts                        |
+| Monitoring/Logs | Custom log tracking, simulated alerts, failover SOPs |
+
 **Components:**
 - **Db2 Primary/Standby (HADR)**: Synchronous or super-async configuration
 - **Q Replication**: For near-real-time CDC from Db2 to SQL Server
