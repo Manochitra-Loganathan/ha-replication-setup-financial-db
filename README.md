@@ -57,6 +57,7 @@ ha-replication-setup-financial-db/
 │   └── ha_dr_replication_architecture.png
 │
 └── README.md
+``` 
 
 ---
 
